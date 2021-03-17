@@ -8,13 +8,13 @@ class Users:
         self.first_name = first_name
         self.second_name = second_name
 
-    def get_data(self, first_name):
+    def get_data(self):
         return self.first_name
 
-    def get_name(self, second_name):
+    def get_name(self):
         return self.second_name
 
-    def get_balance(self, balance):
+    def get_balance(self):
         return self.balance
 
 
